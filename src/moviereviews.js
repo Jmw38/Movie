@@ -20,7 +20,7 @@ const Movie = ({ movie }) => {
 
   return (
     <div className="movie">
-      <img src= {movie.image} alt={movie.title} />
+      <img src={movie.image} alt={movie.title} />
       <h2>{movie.title}</h2>
       <p>{movie.synopsis}</p>
       <div className="rating">Rating: {movie.rating}</div>
@@ -107,7 +107,7 @@ const App = () => {
     {
       id: 2,
       title: "The Shawshank Redemption",
-      image: "The Shawshank Redemption",
+      image: "shawshank_redemption.jpg",
       synopsis: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
       rating: 4.8
     }
